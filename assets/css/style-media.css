@@ -1,0 +1,1037 @@
+/*=============================
+MEDIA QUERIES
+=============================*/
+@media (max-width: 767px) {
+
+/*=============================
+TOPO
+=============================*/
+#topo {
+    display: none;
+}
+nav.navbar.navbar-expand-md.navbar-light {
+    width: 100%;
+    padding: 1rem 0;
+}
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+}
+
+a#navbarDropdown {
+    font-family: 'poppinssemibold';
+    text-transform: uppercase;
+    font-size: 15.75px;
+    margin-right: 31px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 1.5rem;
+    color: #fff;
+    font-family: 'poppinsmedium';
+    font-size: 15.75px;
+    text-align: center;
+    transition: all .3s;
+    box-shadow: 0px 3px 15px #00000040;
+    height: 43px;
+    background: #27A32C;
+    padding-top: 9px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after { 
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-ativo {
+    color: #fff;
+}
+.btn-social {
+    margin-left: 2rem;
+}
+.btn-social .fa-1x {
+    font-size: 1.5rem;
+}
+.btn-social i.fas.fa-circle.fa-stack-2x {
+    color: #fff;
+}
+
+header#topo {
+    background: transparent;
+    position: absolute;
+    z-index: 10;
+}
+
+img#logo {
+    height: 60px;
+    margin-left: -17px;
+}
+
+img#queijo {
+    float: left;
+}
+
+li#vinagre {
+    padding: 0 38px;
+    font-family: poppinssemibold;
+}
+
+div#navbarSupportedContent {
+    height: 48px;
+    width: 1021px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-right: 166px;
+    padding-top: 52px;
+}
+
+.redes-sociais {
+    font-size: 22px;
+    height: 23px;
+    width: 112px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.15));
+    color: #27A32C;
+    float: right;
+    margin-top: 35px;
+    margin-right: -55px;
+}
+
+.redes-socias fab.fa-instagram {
+    font-size: 26px;
+}
+
+
+/*=============================
+BANNER
+=============================*/      
+.fdez-banner figure {
+    margin: 0;
+}
+
+.fdez-banner img {
+    height: 23.2rem;
+} 
+.fdez-banner figcaption {
+    position: absolute;
+    bottom: 15rem;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+}
+.fdez-banner .titulo {
+    line-height: 4rem;
+    color: #fff;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+.fdez-banner .subtitulo {
+    color: #ff3904;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+.fa-chevron-right, .fa-chevron-left {
+    position: absolute;
+    top: 20rem;
+    right: 1.5rem;
+    z-index: 10;
+    width: 2.7rem;
+    height: 4.4rem;
+    font-size: 4rem;
+    cursor: pointer;
+    background-size: 2.7rem 4.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+.fa-chevron-right {
+    right: 0.8rem;
+    left: auto;
+    color: rgba(255, 255, 255, 0.8);
+}
+.fa-chevron-left {
+    left: 0.8rem;
+    right: auto;
+    color: rgba(255, 255, 255, 0.8);
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -4rem;
+}
+/*=============================
+INDEX
+=============================*/
+
+#receitas {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+h2#texto-principal {
+    height: initial;
+    margin: 0 auto 1rem;
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#receitas h3 {
+    line-height: 28px;
+    margin: 0 auto 22px;
+    text-align: center;
+}
+
+ul#myTab {
+    height: initial;
+    margin-left: initial;
+}
+div#myTabContent {
+    width: 100%;
+}
+.nav-tabs .nav-link {
+    height: 3.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-tabs .nav-item {
+    width: 50%;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+.menu-receitas {
+    height: 27px;
+    font-family: 'poppinssemibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color:#0F0F0F;
+    margin-left: 13px;
+    background-color: none;
+    border: 1px solid transparent;
+}
+
+.menu-receitas.active {
+    height: initial;
+    text-align: center;
+    color: #000;
+}
+
+.menu-receitas:hover {
+    height: 27px;
+    font-family: 'poppinssemibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color:#000;
+    background: none;
+    border: none;
+}
+
+img#video {
+    height: 235px;
+}
+
+#video-destaque h2 {
+    height: initial;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+img#relogio-video {
+    height: initial;
+    margin-left: 48px;
+}
+
+p#min-video {
+    font-family: 'poppinsregular';
+    font-size: 17.59px;
+    line-height: 26px;
+    color: #0F0F0F;
+    margin-top: 59px;
+}
+
+img#talheres-video {
+    width: 23px;
+    float: right;
+    margin-top: -33px;
+    margin-right: 381px;
+}
+
+p#texto-video {
+    font-family: 'poppinsregular';
+    font-size: 17.87px;
+    line-height: 27px;
+    text-align: left;
+    color: #0F0F0F;
+    margin-top: 12px;
+}
+
+img#foto-comida {
+    width: 100%;
+    height: 158px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px 0px #00000040;
+    margin-top: 10px;
+    margin-left: initial;
+}
+
+h2#texto-principal-comida {
+    height: 27px;
+    font-family: 'poppinssemibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #0F0F0F;
+    margin-top: 11px;
+    margin-left: initial;
+}
+
+img#luva {
+    height: 29px;
+    border-radius: 0px;
+    float: right;
+    margin-top: -49px;
+    margin-right: initial;
+}
+
+img#relogio-comida {
+    height: 18px;
+    margin-left: initial;
+    margin-top: -7px;
+    float: left;
+}
+
+p#min-comida {
+    height: 21px;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #0F0F0F;
+    margin-top: -7px;
+}
+
+img#talheres-comida {
+    height: 24px;
+    margin-left: initial;
+    float: left;
+    margin-top: -29px;
+}
+
+p#texto-comida {
+    height: 47px;
+    font-family: 'poppinsregular';
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #0F0F0F;
+    margin-left: initial;
+    margin-bottom: 73px;
+}
+
+.fdez-comentarios {
+    background:#F3AA2C;
+    height: initial;
+    padding-bottom: 7rem;
+}
+
+.fdez-comentarios h2 {
+    height: 108px;
+    font-size: 20px;
+    margin-top: 116px;
+}
+
+.fdez-comentarios p {
+    height: 23px;
+    font-size: 17px;
+    line-height: 22.66px
+}
+
+.fdez-comentarios img {
+    height: 30px;
+    margin-top: -187px;
+    margin-left: 468px;
+}
+
+.fdez-comentarios .btn-verde {
+    padding: 13px 25px 12px;
+    margin-top: 45px;
+    Width: 87px;
+    Height: 44px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: initial;
+    margin-bottom: 44px;
+}
+
+.fdez-comentarios .swiper-pagination-bullet {
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: #E69800;
+    float: left;
+}
+
+.fdez-comentarios .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #DB7600;
+}
+
+.fdez-vinagre {
+    height: 815px;
+    margin-top: -36px;
+}
+
+img#vinagres {
+    height: 521px;
+    width: initial;
+    position: absolute;
+    margin-left: initial;
+    margin-top: initial;
+}
+
+.fdez-vinagre h2 {
+    height: initial;
+    font-size: 20px;
+    line-height: inherit;
+    margin-top: 5rem;
+    margin-left: initial;
+    text-align: center;
+}
+
+.fdez-vinagre p {
+    height: initial;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-left: initial;
+}
+
+.fdez-vinagre li h3 {
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-top: 23rem;
+    margin-bottom: 58px;
+}
+
+.fdez-vinagre li h4 {
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-bottom: 58px;
+}
+
+.fdez-vinagre li h5 {
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-bottom: 43px;
+}
+
+img.circulo {
+    height: 53px;
+    float: left;
+}
+
+/*=============================
+RODAPE
+=============================*/
+.footer {
+    margin-top: 5rem;
+    padding-bottom: 64px;
+}
+
+.footer img {
+    height: 54px;
+}
+
+a#home {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+a#sobre {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+a#mundo-limpo {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+a#contato {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+a#trabalhe-conosco {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+a#seja-um-revendedor {
+    margin-left: 83px;
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    height: 186px;
+    line-height: 30.89px;
+    width: 263px;
+}
+
+h2#fab-recife {
+    height: 37px;
+    font-family: 'poppinsbold';
+    font-size: 20px;
+    line-height: initial;
+    text-align: left;
+    padding-left: 77px;
+    margin-top: 47px;
+    margin-bottom: -9px;
+}
+
+p#recife {
+    height: 89px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 77px;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+h3#fab-campina {
+    height: 38px;
+    font-family:'poppinsbold';
+    font-size: 20px;
+    line-height: initial;
+    text-align: left;
+    padding-left: 77px;
+    margin-bottom: -9px;
+}
+
+p#campina-grande {
+    height: 89px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 77px;
+    margin-top: 25px;
+    margin-bottom: 81px;
+}
+
+h4#fab-jardim {
+    height: 37px;
+    font-family: 'poppinsbold';
+    font-size: 20px;
+    line-height: initial;
+    text-align: left;
+    padding-left: 77px;
+    margin-bottom: -9px;
+}
+
+p#belo-jardim {
+    height: 89px;
+    font-family:'poppinsregular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 77px;
+    margin-top: -8px;
+    margin-bottom: 78px;
+}
+
+h5#fab-petrolina {
+    height: 37px;
+    font-family: 'poppinsbold';
+    font-size: 20px;
+    line-height: initial;
+    text-align: left;
+    padding-left: 77px;
+    margin-bottom: 17px;
+}
+
+p#petrolina {
+    height: 89px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 77px;
+    margin-top: -21px;
+    margin-bottom: 0px;
+}
+
+#assinatura .box {
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 22px;
+}
+
+#assinatura h2 {
+    height: 89px;
+    font-family: 'poppinsregular';
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: left;
+    margin-top: 101px;
+    margin-bottom: -40px;
+}
+
+#assinatura h3 {
+    height: 52px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+}
+
+input#fdez-email{
+    height: 47px;
+    background: #EBEBEB;
+    border: 1px solid #818181;
+    margin-top: -16px;
+    width: 295px;
+}
+
+input.btn.btn-primary {
+    height: 47px;
+    width: 120px;
+    background: #143586;
+    color: #fff;
+    margin-top: 24px;
+    text-transform: uppercase;
+    margin-bottom: 54px;
+}
+
+.redes-sociais-rodape p {
+    height: 52px;
+    font-family: 'poppinsregular';
+    font-size: 18px;
+    line-height: 33px;
+    text-align: left;
+    color: #053781;
+    text-transform: uppercase;
+    padding-top: 4px;
+}
+
+span.fa-stack.fa-2x {
+    left: 136px;
+    margin-right: -3px;
+    margin-top: -86px;
+}
+
+i.fas.fa-circle.fa-stack-2x {
+    font-size: 49px;
+    color: #053781;
+    margin-left: -46px;
+}
+
+i.fab.fa-facebook.fa-stack-1x.fa-inverse {
+    width: 53px;
+    top: -1px;
+    font-size: 22px;
+    left: -38px;
+}
+
+i.fab.fa-instagram.fa-stack-1x.fa-inverse {
+    width: 53px;
+    left: -38px;
+    font-size: 22px;
+}
+
+i.fab.fa-youtube.fa-stack-1x.fa-inverse {
+    width: 53px;
+    left: -38px;
+    font-size: 22px;
+}
+
+img#rodape {
+    width: 100%;
+}
+
+
+
+
+
+
+    .error .clip .shadow {height: 10rem;}
+    .error .clip:nth-of-type(2) .shadow {width: 8rem;}
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {width: 10rem;}
+    .error .digit {width: 8rem; height: 8rem; line-height: 8rem; font-size: 5.2rem;}
+    .error h2 {font-size: 2.4rem;}
+    .error .msg {top: -11rem; left: 15%; width: 4rem; height: 4rem; line-height: 4rem; font-size: 1.8rem;}
+    .error span.triangle {top: 70%; right: -3%; border-left: 1rem solid #535353; border-top: .8rem solid transparent; border-bottom: .8rem solid transparent;}
+    .error .container-error-404 {height: 15rem;}
+}
+
+@media (max-width: 320px) {}
+@media (min-width: 375px) and (max-width: 375px) {}
+@media (min-width: 414px) and (max-width: 416px) {}
+@media (min-width: 568px) and (max-width: 568px) {}
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#texto-principal {
+    height: 111px;
+    font-family: 'poppinsbold';
+    font-size: 51px;
+    line-height: 176px;
+    color: #F3A829;
+    margin-bottom: initial;
+    margin-left: initial;
+}
+
+#receitas h3 {
+    height: 31px;
+    font-family: 'poppinsbold';
+    font-size: 24px;
+    color: #0F0F0F;
+    margin-bottom: 25px;
+    margin-left: initial;
+}
+
+ul#myTab {
+    height: 76px;
+    margin-bottom: 29px;
+    margin-left: -40px;
+    border: none;
+}
+
+.menu-receitas {
+    margin-left: 9px;
+}
+
+img#video {
+    width: 100%;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 34px;
+    height: 100%;
+    margin-top: 0px;
+}
+
+#video-destaque h2 {
+    height: 54px;
+    font-family: 'poppinssemibold';
+    font-size: 15px;
+    line-height: initial;
+    text-align: initial;
+    color: #0F0F0F;
+    padding-top: 20px;
+    margin-left: initial;
+}
+
+img#relogio-video {
+    height: 23px;
+    color: #0F0F0F;
+    float: left;
+    margin-top: 24px;
+    margin-left: initial;
+}
+
+p#min-video {
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 26px;
+    color: #0F0F0F;
+    margin-top: 33px;
+}
+
+img#talheres-video {
+    width: 23px;
+    float: right;
+    margin-top: -33px;
+    margin-right: 162px;
+}
+
+p#texto-video {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: initial;
+    margin-top: 12px;
+}
+
+img#foto-comida {
+    width: 100%;
+    height: inherit;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#texto-principal-comida {
+    height: 31px;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+img#relogio-comida {
+    margin-left: -1px;
+    margin-top: -9px;
+    float: left;
+}
+
+p#min-comida {
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    margin-top: -7px;
+}
+
+img#talheres-comida {
+    height: 19px;
+    margin-left: 67px;
+    float: left;
+    margin-top: -26px;
+}
+
+img#luva {
+    height: 22px;
+    float: right;
+    margin-top: -49px;
+    margin-right: -12px;
+}
+
+p#texto-comida {
+    height: 14px;
+    font-size: 10px;
+    margin-bottom: 73px;
+    line-height: initial;
+    text-align: initial;
+    margin-left: initial;
+}
+
+img#vinagres {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-left: -61px;
+    margin-top: -192px;
+}
+
+.fdez-comentarios h2 {
+    height: 109px;
+    font-size: 24px;
+    margin-top: 151px;
+}
+
+.fdez-comentarios p {
+    height: 23px;
+    font-size: 18px;
+    margin-top: -7px;
+}
+
+.fdez-comentarios img {
+    height: 36px;
+    float: left;
+    margin-top: -187px;
+    margin-left: 594px;
+}
+
+.fdez-comentarios .btn-verde {
+    margin-top: 45px;
+    Width: 135px;
+    Height: 48px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    height: 58px;
+    width: 241px;
+}
+
+.fdez-vinagre {
+    height: 815px;
+    margin-top: -36px;
+}
+
+.fdez-vinagre h2 {
+    height: 63px;
+    font-size: 28px;
+    line-height: 31px;
+    margin-top: 143px;
+    margin-left: -57px;
+    margin-top: 107px;
+}
+
+.fdez-vinagre p {
+    height: 88px;
+    font-size: 21px;
+    line-height: 22px;
+    margin-left: -56px;
+}
+
+img.circulo {
+    height: 61px;
+    float: left;
+}
+
+.fdez-vinagre li h3 {
+    height: 52px;
+    font-size: 17px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-top: 153px;
+    margin-bottom: 43px;
+}
+
+.fdez-vinagre li h4 {
+    height: 52px;
+    font-size: 17px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-top: 41px;
+    margin-bottom: 43px;
+}
+
+.fdez-vinagre li h5 {
+    height: 52px;
+    font-size: 17px;
+    line-height: 26.4px;
+    letter-spacing: 0.1px;
+    margin-top: 41px;
+    margin-bottom: 43px;
+}
+
+.footer {
+    background: #EEF4ED;
+    margin-top: -4rem;
+}
+
+.footer img {
+    height: 42px;
+    margin-left: 24px;
+    margin-bottom: 34px;
+    margin-top: 91px;
+}
+
+a#home {
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+a#sobre {
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+a#mundo-limpo {
+    margin-left: 23px;
+    font-size: 18px;
+
+}
+
+a#contato {
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+a#trabalhe-conosco {
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+a#seja-um-revendedor {
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+#fab-recife {
+    height: initial;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 90px;
+    margin-bottom: -2px;
+    margin-left: -25px;
+}
+
+p#recife {
+    height: initial;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-left: -25px;
+}
+
+h3#fab-campina {
+    height: initial;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: -27px;
+    margin-left: -25px;
+}
+
+p#campina-grande {
+    height: initial;
+    font-size: 15px;
+    margin-bottom: 66px;
+    margin-left: -25px;
+}
+
+h4#fab-jardim {
+    height: initial;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: -2px;
+    margin-left: -25px;
+}
+
+p#belo-jardim {
+    height: initial;
+    font-size: 15px;
+    margin-bottom: 34px;
+    margin-left: -25px;
+}
+
+h5#fab-petrolina {
+    height: initial;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: -2px;
+    margin-left: -25px;
+}
+
+p#petrolina {
+    height: initial;
+    font-size: 15px;
+    margin-bottom: 34px;
+    margin-left: -25px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 1280px) and (max-width: 1280px) {}
+@media (min-width: 1360px) and (max-width: 1366px) {}
+@media (min-width: 1281px) and (max-width: 1400px) {}
+@media (min-width: 1440px) and (max-width: 1440px) {}
+@media (min-width: 1600px) and (max-width: 1600px) {}
+@media (min-width: 1680px) and (max-width: 1680px) {}
+}
